@@ -1,0 +1,478 @@
+{
+  "agonistiko_programma": {
+    "title": "Αγωνιστικό Πρόγραμμα",
+    "hero": {
+      "eyebrow": "Season calendar",
+      "heading": "Το ημερολόγιο μας.",
+      "text": "Οι αγωνιστικές ημερομηνίες ενημερώνονται αυτόματα από το Google Calendar της ομάδας."
+    },
+    "schedule": [
+      {
+        "day": "10",
+        "month": "Oct",
+        "title": "Week 1",
+        "details": "Έναρξη πρωταθλήματος BBC League",
+        "link": "https://drive.google.com/file/d/1SdNYAsd5wogMboFTxbv1rx7w-mIPcHlH/view?usp=drive_link"
+      },
+      {
+        "day": "17",
+        "month": "Oct",
+        "title": "Week 2",
+        "details": "Δεύτερη αγωνιστική και ανανέωση standings",
+        "link": "https://drive.google.com/file/d/12P5k3kF6l2KfctUR8UrV-BK3idwhD-yx/view?usp=drive_link"
+      }
+    ],
+    "calendarUrl": "https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=Asia%2FNicosia&showPrint=0&mode=AGENDA&src=YXBvZWxib3dsaW5ndGVhbUBnbWFpbC5jb20&color=%23039be5"
+  },
+  "bbc_teams": {
+    "title": "BBC Teams",
+    "hero": {
+      "eyebrow": "League overview",
+      "heading": "Η οικογένεια του BBC League.",
+      "text": "Ομάδες, events και σημεία αναφοράς από το περιβάλλον της διοργάνωσης."
+    },
+    "groups": [
+      {
+        "title": "Ομάδες 2024-2025",
+        "text": "Συνοπτική ενότητα για τις ομάδες της προηγούμενης σεζόν."
+      },
+      {
+        "title": "Χριστουγεννιάτικο Τουρνουά 2024",
+        "text": "Μια ξεχωριστή διοργάνωση με εορταστικό χαρακτήρα και έντονο ανταγωνισμό."
+      }
+    ]
+  },
+  "coming_soon": {
+    "title": "Σύντομα Κοντά Σας",
+    "hero": {
+      "eyebrow": "New section",
+      "heading": "Περισσότερο περιεχόμενο έρχεται.",
+      "text": "Χρησιμοποίησε αυτή τη σελίδα για νέες υποενότητες, αρχεία ή μελλοντικά αποτελέσματα."
+    }
+  },
+  "config": {
+    "clubName": "APOEL Bowling",
+    "clubTagline": "Team spirit. Strong lanes. Modern home base.",
+    "phone": "+357 99 541254",
+    "email": "apoelbowlingteam@gmail.com",
+    "facebook": "https://www.facebook.com/",
+    "venue": "The Bowling Boutique Bar & Grill",
+    "venueAddress": "Nicosia, Cyprus",
+    "season": "2025-2026"
+  },
+  "gallery": {
+    "title": "Γκαλερί",
+    "hero": {
+      "eyebrow": "Gallery",
+      "heading": "Στιγμές από τη σεζόν.",
+      "text": "Επιλεγμένα στιγμιότυπα από αγώνες, events και βραβεύσεις."
+    },
+    "items": [
+      {
+        "title": "Match Night",
+        "image": "assets/images/bbc-apoel-2024-25.webp",
+        "text": "Ομαδικό στιγμιότυπο από τη γραμμή εκκίνησης."
+      },
+      {
+        "title": "Awards Evening",
+        "image": "assets/images/bbc-apoel-2024-27.jpg",
+        "text": "Βραβεύσεις και γιορτή για τη δουλειά της χρονιάς."
+      }
+    ]
+  },
+  "i_omada": {
+    "title": "Η Ομάδα",
+    "hero": {
+      "eyebrow": "Meet the squad",
+      "heading": "Γνώρισε την ομάδα.",
+      "text": "Παίκτες, επιτυχίες και η φιλοσοφία που κρατά το APOEL Bowling ενωμένο σε κάθε αγωνιστική."
+    },
+    "roster": [
+      {
+        "name": "Ανδρέας Οικονομίδης",
+        "role": "Captain",
+        "bio": "Σταθερότητα, εμπειρία και έντονη αγωνιστική παρουσία.",
+        "image": "assets/images/bbc-apoel-2024-25.webp"
+      },
+      {
+        "name": "Θέος Αναστασίου",
+        "role": "Power scorer",
+        "bio": "Γνωστός για τα δυνατά παιχνίδια και τις μεγάλες σειρές.",
+        "image": "assets/images/bbc-apoel-2024-27.jpg"
+      }
+    ],
+    "achievements": [
+      "Συνεχής παρουσία σε διοργανώσεις του BBC League",
+      "Βραβεύσεις αθλητών και ομαδικές διακρίσεις",
+      "Ενεργή κοινότητα παικτών, φίλων και υποστηρικτών"
+    ]
+  },
+  "index": {
+    "title": "APOEL Bowling",
+    "hero": {
+      "eyebrow": "APOEL Bowling Team",
+      "heading": "ΑΠΟΕΛ ΜΠΟΟΥΛΙΝΓΚ",
+      "text": "Το επίσημο ψηφιακό σπίτι της ομάδας μας: νέα, πρόγραμμα, βαθμολογία, εργαλεία και στιγμές από κάθε frame.",
+      "primaryLabel": "Δες Βαθμολογία",
+      "primaryHref": "/totalstandings",
+      "secondaryLabel": "Τα Νέα Μας",
+      "secondaryHref": "/news",
+      "image": "assets/images/bbc-apoel-2024-25.webp",
+      "panelLabel": "Current season spotlight",
+      "panelTitle": "BBC League 2025-2026",
+      "panelText": "Fixtures, standings, team stories, sponsors, and gallery content in one clean place."
+    },
+    "quickLinks": [
+      {
+        "title": "Εγγραφή Ομάδας",
+        "text": "Άνοιξε άμεσα το αρχείο εγγραφής για τη νέα περίοδο.",
+        "href": "https://drive.google.com/file/d/11p8frgXHRn9J2NuzLhlDhzevXpkrzNhQ/view?usp=drive_link"
+      },
+      {
+        "title": "Εγγραφή Μέλους",
+        "text": "Μπες στην ομάδα και στήριξε την προσπάθεια της χρονιάς.",
+        "href": "https://drive.google.com/file/d/1Gpnb14Fo5K868RZPDOS6Mg_Eu5tffkFd/view?usp=sharing"
+      },
+      {
+        "title": "Αγωνιστικοί Κανονισμοί",
+        "text": "Όλοι οι βασικοί κανονισμοί σε ένα σημείο.",
+        "href": "https://drive.google.com/file/d/1Mzt58uv6Q6Elzb6GrbWj_WB4CY53kgzB/view?usp=drive_link"
+      }
+    ],
+    "venue": {
+      "title": "Η Έδρα Μας",
+      "subtitle": "The Bowling Boutique Bar & Grill",
+      "text": "Εκεί που η προπόνηση, ο ανταγωνισμός και η ομάδα συναντιούνται κάθε εβδομάδα.",
+      "image": "assets/images/bowling-ball-with-bowling-sml.jpg",
+      "bullets": [
+        "Αγωνιστική βάση για προπονήσεις και επίσημους αγώνες",
+        "Φιλικό περιβάλλον για νέα μέλη και αθλητές",
+        "Σημείο συνάντησης για events, βραβεύσεις και social nights"
+      ]
+    },
+    "leaders": [
+      {
+        "label": "Ψηλότερος Μέσος Όρος",
+        "value": "Ανδρέας Οικονομίδης",
+        "score": "Μ.Ο. 200"
+      },
+      {
+        "label": "Ψηλότερη Σειρά",
+        "value": "Θέος Αναστασίου",
+        "score": "Σειρά 765"
+      },
+      {
+        "label": "Ψηλότερο Παιχνίδι",
+        "value": "Θέος Αναστασίου",
+        "score": "Παιχνίδι 288"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Πώς μπορώ να γίνω μέλος;",
+        "a": "Συμπλήρωσε την αίτηση εγγραφής μέλους και στείλε τη στο apoelbowlingteam@gmail.com."
+      },
+      {
+        "q": "Υπάρχουν ηλικιακοί περιορισμοί;",
+        "a": "Το bowling είναι προσβάσιμο σε πολλές ηλικίες. Για αγωνιστική συμμετοχή ισχύουν οι κανονισμοί της διοργάνωσης."
+      },
+      {
+        "q": "Μπορώ να φέρω δικό μου εξοπλισμό;",
+        "a": "Ναι. Αν ήδη έχεις μπάλα, παπούτσια ή άλλο προσωπικό εξοπλισμό, μπορείς να τα χρησιμοποιήσεις."
+      }
+    ]
+  },
+  "league_archives": {
+    "items": []
+  },
+  "news": {
+    "title": "Νέα",
+    "hero": {
+      "eyebrow": "Team updates",
+      "heading": "Νέα από τη σεζόν και την ομάδα.",
+      "text": "Ανακοινώσεις, εκδηλώσεις, βραβεύσεις και ιστορίες από το APOEL Bowling."
+    },
+    "items": [
+      {
+        "title": "ABCD Singles Open Tour 2025-2026",
+        "date": "05 Σεπτεμβρίου 2025",
+        "category": "Tournament",
+        "image": "assets/images/bbc-apoel-2024-27.jpg",
+        "text": "Η νέα σεζόν ξεκινά με ένταση, ρυθμό και υψηλές προσδοκίες για την ομάδα."
+      },
+      {
+        "title": "Κύπελλα 24-25",
+        "date": "Ιούλιος 2025",
+        "category": "Awards",
+        "image": "assets/images/bbc-apoel-2024-25.webp",
+        "text": "Ανασκόπηση των διακρίσεων της περασμένης χρονιάς και των σημαντικότερων στιγμών."
+      }
+    ]
+  },
+  "tools": {
+    "title": "Tools",
+    "hero": {
+      "eyebrow": "Team toolkit",
+      "heading": "Bowling tools for line building.",
+      "text": "Use the lane play calculator directly in the site to project stance, slide, laydown, focal point, launch angle, and simple move progressions."
+    }
+  },
+  "totalstandings": {
+    "title": "Συνολική Βαθμολογία",
+    "hero": {
+      "eyebrow": "BBC 25-26",
+      "heading": "Βαθμολογία Week 17",
+      "text": "Στοιχεία από το TOTAL STANDINGS WEEK 17.pdf."
+    },
+    "season": "2025-2026 · Week 17 of 18",
+    "updatedAt": "2026-04-21",
+    "source": "TOTAL STANDINGS WEEK 17.pdf",
+    "apoelPlayers": [
+      "ANDREAS ECONOMIDES",
+      "THEOS ANASTASIOU",
+      "MICHALIS ZAMBARTAS",
+      "GEORGE HADJISTEFANOU",
+      "GEORGE ANASTASIOU",
+      "KYRIAKOS TSOULOUPAS",
+      "STELIOS ANTONIOU",
+      "YIOLA PASTOU"
+    ],
+    "rows": [
+      {
+        "place": "1",
+        "teamNumber": "1",
+        "team": "APOEL",
+        "percentWon": "76.0",
+        "pointsWon": "216½",
+        "pointsLost": "68½",
+        "unearnedPoints": "",
+        "ytdPercentWon": "76.0",
+        "ytdWon": "216½",
+        "ytdLost": "68½",
+        "gamesWon": "39",
+        "scratchPins": "42967",
+        "totalPins": "42967"
+      },
+      {
+        "place": "2",
+        "teamNumber": "4",
+        "team": "KINGPINS",
+        "percentWon": "62.3",
+        "pointsWon": "177½",
+        "pointsLost": "107½",
+        "unearnedPoints": "",
+        "ytdPercentWon": "62.3",
+        "ytdWon": "177½",
+        "ytdLost": "107½",
+        "gamesWon": "32",
+        "scratchPins": "40374",
+        "totalPins": "40374"
+      },
+      {
+        "place": "3",
+        "teamNumber": "3",
+        "team": "NOVOCASA BULLDOGS",
+        "percentWon": "61.6",
+        "pointsWon": "175½",
+        "pointsLost": "109½",
+        "unearnedPoints": "2",
+        "ytdPercentWon": "61.6",
+        "ytdWon": "175½",
+        "ytdLost": "109½",
+        "gamesWon": "29",
+        "scratchPins": "41128",
+        "totalPins": "41128"
+      },
+      {
+        "place": "4",
+        "teamNumber": "7",
+        "team": "SUPERNOVA",
+        "percentWon": "55.6",
+        "pointsWon": "158½",
+        "pointsLost": "126½",
+        "unearnedPoints": "",
+        "ytdPercentWon": "55.6",
+        "ytdWon": "158½",
+        "ytdLost": "126½",
+        "gamesWon": "26½",
+        "scratchPins": "39513",
+        "totalPins": "39513"
+      },
+      {
+        "place": "5",
+        "teamNumber": "2",
+        "team": "ALLEY CATS",
+        "percentWon": "51.2",
+        "pointsWon": "146",
+        "pointsLost": "139",
+        "unearnedPoints": "",
+        "ytdPercentWon": "51.2",
+        "ytdWon": "146",
+        "ytdLost": "139",
+        "gamesWon": "25",
+        "scratchPins": "38754",
+        "totalPins": "38754"
+      },
+      {
+        "place": "6",
+        "teamNumber": "5",
+        "team": "VOLIDES",
+        "percentWon": "45.8",
+        "pointsWon": "130½",
+        "pointsLost": "154½",
+        "unearnedPoints": "",
+        "ytdPercentWon": "45.8",
+        "ytdWon": "130½",
+        "ytdLost": "154½",
+        "gamesWon": "18",
+        "scratchPins": "38068",
+        "totalPins": "38068"
+      },
+      {
+        "place": "7",
+        "teamNumber": "8",
+        "team": "NEXXXT",
+        "percentWon": "41.4",
+        "pointsWon": "126",
+        "pointsLost": "178",
+        "unearnedPoints": "",
+        "ytdPercentWon": "41.4",
+        "ytdWon": "126",
+        "ytdLost": "178",
+        "gamesWon": "19",
+        "scratchPins": "40302",
+        "totalPins": "40302"
+      },
+      {
+        "place": "8",
+        "teamNumber": "6",
+        "team": "TERMITES",
+        "percentWon": "31.8",
+        "pointsWon": "90½",
+        "pointsLost": "194½",
+        "unearnedPoints": "",
+        "ytdPercentWon": "31.8",
+        "ytdWon": "90½",
+        "ytdLost": "194½",
+        "gamesWon": "10½",
+        "scratchPins": "35805",
+        "totalPins": "35805"
+      },
+      {
+        "place": "9",
+        "teamNumber": "9",
+        "team": "BOWLING CREW",
+        "percentWon": "24.9",
+        "pointsWon": "71",
+        "pointsLost": "214",
+        "unearnedPoints": "",
+        "ytdPercentWon": "24.9",
+        "ytdWon": "71",
+        "ytdLost": "214",
+        "gamesWon": "5",
+        "scratchPins": "35349",
+        "totalPins": "35349"
+      },
+      {
+        "place": "10",
+        "teamNumber": "10",
+        "team": "BYE",
+        "percentWon": "0",
+        "pointsWon": "0",
+        "pointsLost": "0",
+        "unearnedPoints": "",
+        "ytdPercentWon": "0",
+        "ytdWon": "0",
+        "ytdLost": "0",
+        "gamesWon": "0",
+        "scratchPins": "0",
+        "totalPins": "0"
+      }
+    ],
+    "leagueLeaders": {
+      "averages": [
+        {
+          "name": "Ανδρέας Οικονομίδης",
+          "score": "200"
+        },
+        {
+          "name": "Θέος Αναστασίου",
+          "score": "197"
+        },
+        {
+          "name": "Μιχάλης Ζαμπάρτας",
+          "score": "196"
+        }
+      ],
+      "games": [
+        {
+          "name": "Θέος Αναστασίου",
+          "score": "288"
+        },
+        {
+          "name": "Ανδρέας Χατζηευαγγέλου",
+          "score": "279"
+        },
+        {
+          "name": "Μιχάλης Ζαμπάρτας",
+          "score": "276"
+        }
+      ],
+      "series": [
+        {
+          "name": "Θέος Αναστασίου",
+          "score": "765"
+        },
+        {
+          "name": "Ανδρέας Χατζηευαγγέλου",
+          "score": "702"
+        },
+        {
+          "name": "Γιώργος Αναστασίου",
+          "score": "671"
+        }
+      ],
+      "source": "HIGH AVG WEEK 17.pdf"
+    }
+  },
+  "xorigi": {
+    "title": "Χορηγοί",
+    "hero": {
+      "eyebrow": "Supporters",
+      "heading": "Οι χορηγοί μας 2025-2026.",
+      "text": "Οι συνεργάτες που στηρίζουν την προσπάθεια της ομάδας σε κάθε frame."
+    },
+    "sponsors": [
+      {
+        "name": "Romanos",
+        "image": "assets/images/romanos-logo-full-1.jpg",
+        "type": "Hospitality partner"
+      },
+      {
+        "name": "ARGUS",
+        "image": "assets/images/uploads/argus-logo-white.jpg",
+        "type": "Support partner"
+      },
+      {
+        "name": "AGC Contractors",
+        "image": "assets/images/uploads/agc-1.png",
+        "type": ""
+      },
+      {
+        "name": "CFi",
+        "image": "assets/images/uploads/cfi-logo.png",
+        "type": ""
+      },
+      {
+        "name": "iPP Electronics",
+        "image": "assets/images/uploads/ipp-electronics-logo.png",
+        "type": ""
+      },
+      {
+        "name": "M.P. Feed Co Ltd",
+        "image": "assets/images/uploads/mp-feed.png",
+        "type": ""
+      }
+    ]
+  }
+}
