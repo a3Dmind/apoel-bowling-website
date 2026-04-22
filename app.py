@@ -811,18 +811,9 @@ def render_schedule():
 
 
 STANDINGS_FIELDS = [
-    ("place", "#"),
-    ("teamNumber", "Team #"),
     ("team", "Team"),
-    ("percentWon", "% Won"),
     ("pointsWon", "Points Won"),
-    ("pointsLost", "Points Lost"),
-    ("unearnedPoints", "UnEarned"),
-    ("ytdPercentWon", "YTD %"),
-    ("ytdWon", "YTD Won"),
-    ("ytdLost", "YTD Lost"),
-    ("gamesWon", "Games Won"),
-    ("scratchPins", "Scratch Pins"),
+    ("gamesPlayed", "Games Played"),
     ("totalPins", "Total Pins"),
 ]
 
@@ -850,6 +841,35 @@ def numberish(value, default=0):
         return float(text)
     except ValueError:
         return default
+
+
+def normalize_standings_row(row):
+    return {
+        "place": str(row.get("place", "")).strip(),
+        "team": str(row.get("team", "")).strip(),
+        "pointsWon": str(row.get("pointsWon") or row.get("points") or "0").strip(),
+        "gamesPlayed": str(row.get("gamesPlayed") or row.get("gamesWon") or row.get("played") or "").strip(),
+        "totalPins": str(row.get("totalPins") or row.get("pins") or "0").strip(),
+    }
+
+
+def rank_standings_rows(rows):
+    normalized = []
+    for row in rows:
+        item = normalize_standings_row(row)
+        if not item["team"] or item["team"].upper() == "BYE":
+            continue
+        normalized.append(item)
+    normalized.sort(
+        key=lambda row: (
+            -numberish(row.get("pointsWon")),
+            -numberish(row.get("totalPins")),
+            row.get("team", "").upper(),
+        )
+    )
+    for index, row in enumerate(normalized, start=1):
+        row["place"] = str(index)
+    return normalized
 
 
 def team_initials(name):
@@ -953,6 +973,7 @@ def parse_total_standings_pdf(path):
                     "ytdWon": ytd_won,
                     "ytdLost": ytd_lost,
                     "gamesWon": games_won,
+                    "gamesPlayed": games_won,
                     "scratchPins": scratch_pins,
                     "totalPins": total_pins,
                 }
@@ -974,6 +995,7 @@ def parse_total_standings_pdf(path):
                     "ytdWon": "0",
                     "ytdLost": "0",
                     "gamesWon": "0",
+                    "gamesPlayed": "0",
                     "scratchPins": "0",
                     "totalPins": "0",
                 }
@@ -995,7 +1017,7 @@ def parse_total_standings_pdf(path):
         "updatedAt": updated_at or time.strftime("%Y-%m-%d"),
         "source": Path(path).name,
         "apoelPlayers": apoel_players,
-        "rows": rows,
+        "rows": rank_standings_rows(rows),
     }
 
 
@@ -1212,10 +1234,7 @@ def league_archives_html():
 
 def standings_section(copy="Only logged-in admins can update this live table.", data=None):
     data = data or get_content("totalstandings")
-    rows = sorted(
-        [row for row in data.get("rows", []) if row.get("team") != "BYE"],
-        key=lambda row: numberish(row.get("place"), 999),
-    )
+    rows = rank_standings_rows(data.get("rows", []))
     table_rows = "".join(
         f'<tr class="{"is-leader" if index == 0 else ""} {"is-podium" if index < 3 else ""}">'
         f'<td class="standings-rank" data-label="#"><span class="rank-badge">{e(item.get("place"))}</span></td>'
@@ -1772,7 +1791,7 @@ def page_form_schedule(query):
 
 def save_standings(form):
     data = get_content("totalstandings")
-    rows = parse_repeater(form, "rows", [field for field, _ in STANDINGS_FIELDS])
+    rows = rank_standings_rows(parse_repeater(form, "rows", [field for field, _ in STANDINGS_FIELDS]))
     payload = {
         "title": data.get("title", "Συνολική Βαθμολογία"),
         "hero": {
